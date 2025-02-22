@@ -7,7 +7,7 @@ import {toast} from  'react-toastify'
 export const DoctorsContext=createContext()
 
 const DoctorsContextProvider =(props)=>{
-  const backendurl='https://carepoint.onrender.com'
+  const backendurl=import.meta.env.VITE_BACKEND_URL
 
   const [dToken, setDToken] = useState(localStorage.getItem('dToken')?localStorage.getItem('dToken'):"")
   const [appointments, setAppointments] = useState([])
