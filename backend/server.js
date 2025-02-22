@@ -14,7 +14,11 @@ connectDB()
 connectCloudinary()
 //middlewares
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: ["https://CarePoint778.vercel.app", "https://adminCarePoint778.vercel.app","http://localhost:4000"],
+    credentials: true,
+}));
+
 
 
 //API endpoints 
