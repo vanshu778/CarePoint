@@ -11,7 +11,7 @@ const AdminContextProvider =(props)=>{
   const [appointments,setAppointmnets]=useState([])
   const [dashData, setdashData] = useState(false)
 
-  const backendUrl=import.meta.env.VITE_BACKEND_URL
+  const backendUrl='https://carepoint.onrender.com';
   const getAllDoctors =async()=>{
     try {
       const {data}=await axios.post(backendUrl + '/api/admin/all-doctors',{},{headers:{aToken}})

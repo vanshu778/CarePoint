@@ -3,7 +3,7 @@ import { createContext } from "react";
 export const AppContext=createContext()
 
 const AppContextProvider =(props)=>{
-    const backendurl=import.meta.env.VITE_BACKEND_URL
+    const backendurl='https://carepoint.onrender.com'
     const currency="$"
     const calclateAge=(dob)=>{
         const today= new Date()
