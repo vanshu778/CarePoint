@@ -40,6 +40,21 @@
 
 ---
 
+## 💁‍️ Admin Folder Structure
+
+```bash
+📂 admin
+├── 📂 public
+│   ├── vite.svg
+├── 📂 src
+│   ├── 📂 assets
+│   ├── 📂 components
+│   ├── 📂 context
+│   ├── 📂 pages
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+
 ## 📁 Project Structure
 
 ```bash
@@ -78,6 +93,12 @@ cd CarePoint
 ```
 
 ### 📦 Install Dependencies
+
+#### Admin:
+```sh
+cd admin
+npm install
+```
 #### Backend:
 ```sh
 cd backend
@@ -102,6 +123,11 @@ RAZORPAY_KEY=your_razorpay_key
 ```
 
 ### ▶️ Start the Application
+#### Admin:
+```sh
+cd admin
+npm run dev
+```
 #### Backend:
 ```sh
 cd backend
