@@ -4,7 +4,7 @@
 
 🚀 **CarePoint** is a full-stack web application designed to streamline the process of booking doctor appointments online. Whether you're a patient searching for the right doctor or a doctor managing appointments, CarePoint makes healthcare seamless.
 
-🔗 **Live Demo:** [CarePoint Frontend](https://carepointfrontend.vercel.app)
+🔗 **Live Demo:** [CarePoint Frontend](https://carepoint778.vercel.app/ )
 
 ---
 
@@ -40,7 +40,9 @@
 
 ---
 
-## 💁‍️ Admin Folder Structure
+## 📁 Project Structure
+
+#### 💁‍️ Admin Folder Structure
 
 ```bash
 📂 admin
@@ -54,8 +56,6 @@
 │   ├── App.jsx
 │   ├── main.jsx
 │   ├── index.css
-
-## 📁 Project Structure
 
 ```bash
 📦 CarePoint

@@ -14,7 +14,7 @@ const Contact = () => {
               Andheri(West) ,Mumbai, Maharashtra, Ind</p>
             <p className='text-gray-500'>Tel: 9999999999 <br />Email: vthesiya778@gmail.com
             </p>
-            <p className='font-semibold text-lg text-gray-600 '>Careers at PRESCRIPTO</p>
+            <p className='font-semibold text-lg text-gray-600 '>Careers at CarePoint</p>
             <p className='text-gray-500'>Learn more about our teams and job openings.</p>
             <button className='py-5 px-8 border border-black text-sm hover:bg-black hover:text-white transition-all duration-500 '>Explore Jobs</button>
           </div>
