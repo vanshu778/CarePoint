@@ -1,10 +1,11 @@
 # 🌟 CarePoint - Doctor Appointment Booking System
 
-![CarePoint](public/logo.png)
+<img width="958" alt="main" src="https://github.com/user-attachments/assets/c0d25a81-e924-4dd5-a046-4ecd333f014f" />
+
 
 🚀 **CarePoint** is a full-stack web application designed to streamline the process of booking doctor appointments online. Whether you're a patient searching for the right doctor or a doctor managing appointments, CarePoint makes healthcare seamless.
 
-🔗 **Live Demo:** [CarePoint Frontend](https://carepoint778.vercel.app/ )
+🔗 **Live Demo:** [CarePoint](https://carepoint778.vercel.app/ )
 
 ---
 
@@ -12,8 +13,7 @@
 
 ✅ **Secure Authentication** (Admin, Doctor, and User Roles)  
 ✅ **Doctor Appointment Booking System**  
-✅ **Payment Integration** (Stripe & Razorpay)  
-✅ **Real-time Chat Support**  
+✅ **Payment Integration** (Razorpay)  
 ✅ **Profile & Appointment Management**  
 ✅ **Admin Dashboard for Doctor Approvals**  
 ✅ **Image Upload via Cloudinary**  
@@ -35,19 +35,16 @@
 - 📂 Multer (for file uploads)
 
 ### 💳 Payment Gateway:
-- 💲 Stripe
 - 🏦 Razorpay
 
 ---
 
 ## 📁 Project Structure
 
-#### 💁‍️ Admin Folder Structure
-
 ```bash
+📦 CarePoint
 📂 admin
 ├── 📂 public
-│   ├── vite.svg
 ├── 📂 src
 │   ├── 📂 assets
 │   ├── 📂 components
@@ -56,9 +53,7 @@
 │   ├── App.jsx
 │   ├── main.jsx
 │   ├── index.css
-
-```bash
-📦 CarePoint
+│
 ├── 📂 backend
 │   ├── 📂 config
 │   ├── 📂 controllers
@@ -118,7 +113,6 @@ JWT_SECRET=your_secret_key
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
-STRIPE_SECRET_KEY=your_stripe_key
 RAZORPAY_KEY=your_razorpay_key
 ```
 
@@ -143,12 +137,38 @@ npm run dev
 
 ## 📷 Screenshots
 
-| 🏠 Home Page | 📅 Booking Page |
-|-------------|---------------|
-| ![Home](public/home_screenshot.png) | ![Booking](public/booking_screenshot.png) |
+### User Dashboard
+
+<img width="959" alt="main5" src="https://github.com/user-attachments/assets/2c5c1b4b-98df-4458-9e82-0e3fade51a03" />
+
+<img width="960" alt="main7" src="https://github.com/user-attachments/assets/b5341383-7f96-4081-abfc-de21049b3600" />
+
+<img width="955" alt="main8" src="https://github.com/user-attachments/assets/3e0c96b0-ab39-4482-874f-a8dff6f89526" />
+
+<img width="953" alt="main9" src="https://github.com/user-attachments/assets/09c56b45-0ac5-467e-aee2-a71a76e82827" />
+
+
+### Admin Dashboard
+
+<img width="958" alt="admin0" src="https://github.com/user-attachments/assets/9c44c16e-37cd-4824-b4f7-a321d2ea249f" />
+
+<img width="958" alt="admin1" src="https://github.com/user-attachments/assets/cb33c71f-0576-4d40-be6f-05b127d94fef" />
+
+<img width="960" alt="admin2" src="https://github.com/user-attachments/assets/4383d32f-8656-4e6c-819c-bdf7b2662ba6" />
+
+<img width="958" alt="admin3" src="https://github.com/user-attachments/assets/cb953ee7-9e51-45e0-ba97-329cf4bde40e" />
+
+<img width="960" alt="admin4" src="https://github.com/user-attachments/assets/d6c45f48-7c1f-4b2c-a777-faac6fd2d967" />
+
+### Doctor Dashboard
+
+<img width="960" alt="dr1" src="https://github.com/user-attachments/assets/5a8fd287-aa8a-497b-88e1-61e4d36029f6" />
+
+<img width="960" alt="dr2" src="https://github.com/user-attachments/assets/0f299a06-cdc1-4a45-930c-891593589503" />
+
+<img width="646" alt="dr3" src="https://github.com/user-attachments/assets/4622c8a5-c1e7-4824-ad38-226e505f7024" />
 
 ---
-
 ## 🛡️ Security & Authentication
 - 🔐 Uses **JWT** for authentication
 - 🔑 Passwords are **hashed using bcrypt**
